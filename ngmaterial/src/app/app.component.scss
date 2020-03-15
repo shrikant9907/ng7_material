@@ -1,0 +1,22 @@
+.top-toolbar {
+    background: #845EC2;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    color:#ffffff;
+    
+    mat-toolbar-row {
+        justify-content: space-between;
+    }
+}
+ 
+.main-nav {
+    min-height: 100%; 
+    background: #FEFEDF;
+    mat-sidenav {
+        width: 80%;
+        border:none;
+
+        &.mat-drawer-opened {
+          box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        } 
+    }
+}
